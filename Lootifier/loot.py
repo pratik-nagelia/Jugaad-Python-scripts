@@ -11,16 +11,15 @@ needle = 'loot'
 urll = "http://www.indiafreestuff.in/forum/forum/5-hotdeals-forum/"  # ?page="+str(pgno)
 last = ''
 jession_id = ' '
-number = "8084033193"  # raw_input("Enter Mobile number:")
 
-ACCOUNT_SID = 'ACef3a41999c12d31b09d595effb578b7'
-AUTH_TOKEN = '3856662e953ce4d63b790634d58fa66'
+ACCOUNT_SID = ''                            #add twilio account credentials
+AUTH_TOKEN = ''
 client = TwilioRestClient(ACCOUNT_SID, AUTH_TOKEN)
 
 def sendSMS(message):
     client.messages.create(
         to='+919430767502',
-        from_='+13343103023',
+        from_='+13343103023',           # add twilio assigned number
         body=message,
     )
 maxx = 0
