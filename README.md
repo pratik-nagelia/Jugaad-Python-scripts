@@ -7,6 +7,6 @@ I have many accounts in freecharge.in , many of them occasionally have credits .
   1. Download chromedriver https://sites.google.com/a/chromium.org/chromedriver/downloads
   2. Extract and copy the file to /usr/local/bin
   3. Install selenium python module
-  4. Write all your username & passwords in the format <username> : <password> in a text file and save it with db.txt file.
+  4. Write all your username & passwords in the format "username" : "password" in a text file and save it with db.txt file.
 
 In order to have a headless support , one can try headless browser, PhantomJs ,simply by initialising, webdriver.PhantomJS()
