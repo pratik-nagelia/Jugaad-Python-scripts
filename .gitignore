@@ -1,5 +1,5 @@
 test.py
-.idea
-.json
-.log
-.txt
+.idea/*
+*.json
+*.log
+*.txt
