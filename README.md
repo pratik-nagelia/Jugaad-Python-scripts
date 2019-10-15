@@ -10,3 +10,6 @@ I have many accounts in freecharge.in , many of them occasionally have credits .
   4. Write all your username & passwords in the format "username" : "password" in a text file and save it with db.txt file.
 
 In order to have a headless support , one can try headless browser, PhantomJs ,simply by initialising, webdriver.PhantomJS()
+
+# Excel Automation 
+The methodology used can be found here : https://automatetheboringstuff.com
